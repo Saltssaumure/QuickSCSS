@@ -1,0 +1,17 @@
+{
+  "name": "salt-quickscss",
+  "version": "1.0.0",
+  "description": "QuickSCSS for Replugged",
+  "repository": "github:Saltssaumure/QuickSCSS",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "prettier ./scss --write --log-level warn",
+    "watch": "sass --watch --no-source-map scss/main.scss:../main.css"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3",
+    "sass": "^1.66.1"
+  }
+}

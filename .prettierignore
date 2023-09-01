@@ -1,0 +1,7 @@
+# Folders
+/.github
+/node_modules
+
+# Files
+LICENSE
+pnpm-lock.yaml
