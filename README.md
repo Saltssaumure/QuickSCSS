@@ -26,8 +26,8 @@ QuickSCSS simultaneously compiles SCSS to Custom/Quick CSS of the most popular D
 4. Create a `scss` folder with a `main.scss` file inside.
 ```
 my-customisations/
-├─ scss/
-   ├─ main.scss
+└─ scss/
+   └─ main.scss
 ```
 
 ## Usage
