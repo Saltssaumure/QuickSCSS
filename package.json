@@ -1,17 +1,30 @@
 {
-  "name": "salt-quickscss",
-  "version": "1.0.0",
-  "description": "QuickSCSS for Replugged",
+  "name": "quickscss",
+  "version": "1.0.1",
+  "description": "SCSS compiler for synchronising custom / quick css in multiple Discord client mods.",
   "repository": "github:Saltssaumure/QuickSCSS",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
-    "lint": "prettier ./scss --write --log-level warn",
-    "watch": "sass --watch --no-source-map scss/main.scss:../main.css"
+    "lint": "prettier ./src --write --log-level warn",
+    "build": "npx tsc"
+  },
+  "bin": {
+    "quickscss": "./lib/index.js"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "chalk": "^5.3.0",
+    "chokidar": "^3.5.3",
+    "postcss": "^8.4.29",
     "prettier": "^3.0.3",
-    "sass": "^1.66.1"
+    "sade": "^1.8.1",
+    "sass": "^1.66.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7"
   }
 }
