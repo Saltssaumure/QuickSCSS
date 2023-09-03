@@ -2,6 +2,7 @@
 [bd]:       https://betterdiscord.app
 [rp]:       https://replugged.dev
 [vc]:       https://vencord.dev
+[quickcss]: https://github.com/Saltssaumure/QuickCSS
 
 [license]:  https://github.com/Saltssaumure/QuickSCSS/blob/main/LICENSE
 
@@ -20,6 +21,10 @@ QuickSCSS simultaneously compiles SCSS to Custom/Quick CSS of the most popular D
   - [Vencord][vc]
 
 ## Setup
+### Quick
+Use the [QuickCSS][quickcss] template.
+
+### Manual
 1. Create a folder, eg. `my-customisations`
 2. Go into the folder: `cd my-customisations`
 3. Setup with pnpm: `pnpm init -y && pnpm add quickscss && pnpm i`
