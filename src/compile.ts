@@ -31,15 +31,15 @@ export default async () => {
     log.success(`Built in ${(endTime - startTime).toFixed()}ms`);
 
     // Write to disk
-    const mods = ["BetterDiscord", "Replugged", "Vencord"];
+    const mods = ["BetterDiscord", "Replugged", "Vencord", "Vesktop"];
 
     mods.forEach((mod) => {
         const location = getLocation(mod);
         if (!fs.existsSync(getPath(location[0]))) {
-            log.warning(`${mod} folder not found.`);
+            log.warning(`Folder not not found: ${mod} at ${location[0]}`);
             return;
         }
         fs.writeFileSync(path.join(location[0], location[1]), css);
-        log.success(`Wrote to ${mod} folder`);
+        log.success(`Successfully written: ${mod} at ${location[0]}`);
     });
 };

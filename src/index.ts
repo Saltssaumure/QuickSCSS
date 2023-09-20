@@ -16,7 +16,7 @@ prog.command("compile")
     });
 
 prog.command("watch")
-    .describe("Watch the scss folder for changes and autocompile them to the BetterDiscord themes folder.")
+    .describe("Watch the scss folder for changes and autocompile them to the respective theme folders.")
     .action(async () => {
         chokidar
             .watch("scss", { usePolling: true })
