@@ -1,6 +1,6 @@
 {
   "name": "quickscss",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "SCSS compiler for synchronising Custom / Quick CSS in multiple Discord client mods.",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",
@@ -10,6 +10,7 @@
     "betterdiscord",
     "replugged",
     "vencord",
+    "vesktop",
     "discord",
     "sass",
     "scss",

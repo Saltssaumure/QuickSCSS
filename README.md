@@ -2,6 +2,8 @@
 [bd]:       https://betterdiscord.app
 [rp]:       https://replugged.dev
 [vc]:       https://vencord.dev
+[vt]:       https://github.com/Vencord/Vesktop
+
 [quickcss]: https://github.com/Saltssaumure/QuickCSS
 
 [license]:  https://github.com/Saltssaumure/QuickSCSS/blob/main/LICENSE
@@ -19,6 +21,7 @@ QuickSCSS simultaneously compiles SCSS to Custom/Quick CSS of the most popular D
   - [BetterDiscord][bd]
   - [Replugged][rp]
   - [Vencord][vc]
+  - [Vesktop][vt]
 
 ## Setup
 ### Quick
